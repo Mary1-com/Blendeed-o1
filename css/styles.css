@@ -115,7 +115,7 @@ button {
 
 .nav-list-link {
     display: block;
-    background-color:  #1b414b;
+    background-color: rgba(27, 65, 75, 0.5);;
     border-radius: 8px;
     padding: 15px 25px 15px 24px;
     font-weight: 400;
@@ -127,7 +127,7 @@ button {
 
 .nav-list-link:hover,
 .nav-list-link:focus    {   
-    background: #39b6cc;
+    background: #1b414b;;
 }
 
 .current {
@@ -225,6 +225,13 @@ button {
     height: 52px;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+
+}
+
 /* #endregion Hero */
 
 /* #region Block1 technology */
@@ -270,7 +277,13 @@ button {
 
 }
 
-.technology-subtitle {}
+.technology-subtitle {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #1b414b;
+}
 
 .technology-text {
     font-weight: 400;
@@ -278,6 +291,7 @@ button {
     line-height: 1.15;
     letter-spacing: -0.02em;
     color: #040306;
+    opacity: 0.4;
 }
 
 .technology-img {
@@ -299,6 +313,7 @@ button {
 .container-choose-cards {
     padding: 0 15px;
     align-items: center;
+    text-align: center;
 }
 
 .title-choose-cards {
@@ -402,14 +417,14 @@ button {
     
 }
 
-.cards-btn-box{
+/* .cards-btn-box{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: row;
     gap: 10px;
     
-}
+} */
 
 .cards-btn {
     border: 1px solid rgba(251, 251, 251, 0.35);
@@ -417,7 +432,14 @@ button {
     padding: 16px 40px;
     width: 179px;
     height: 52px;
-    background-color: #0e1823;;
+    background-color: #0e1823;
+    margin: 0 auto;
+}
+
+.cards-btn:hover,
+.cards-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;;
 }
 
 /* #endregion Cards block2 price */
