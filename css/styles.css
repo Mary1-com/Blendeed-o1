@@ -81,6 +81,7 @@ button {
 .header-container {
     display: flex;
     align-items: center;
+    position: inetter;
 }
 
 .header-box {
