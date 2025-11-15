@@ -250,8 +250,8 @@ button {
     background-color: #fbfbfb;
     border-radius: 24px;
     max-width: 1340px;
-    height: 675px;
-    /* padding-top: 0; */
+    /* height: 675px; */
+    padding-top: 0;
     padding: 50px 50px 438px 50px;
     
 }
@@ -446,7 +446,76 @@ button {
 
 /* #region block3 sings */
 
+.section {}
 
+.sings {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.container {}
+
+.container-sings {}
+
+.visually-hidden {}
+
+.container-sings-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+    /* padding-left: 50px; */
+}
+
+
+.sings-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 24px;
+    background-color: #1b414b;
+    padding: 78px 0;
+    row-gap: 44px;
+    /* padding-left: 32px;
+    padding-right: 32px; */
+}
+
+.sings-list-item {
+    width: 318px;
+    padding: 0 18px;
+}
+
+.sings-item-lable {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    color: #fbfbfb;
+    /* padding: 18px 0; */
+
+}
+
+.hr-sings {
+    border-radius: 18px;
+    width: 100%;
+    height: 2px;
+    background: rgba(251, 251, 251, 0.1);
+}
+
+.sings-list-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    opacity: 0.8;
+    padding: 18px 0;
+}
+
+.sings-img {
+    border-radius: 24px;
+}
 
 /* #endregion block3 sings */
 
