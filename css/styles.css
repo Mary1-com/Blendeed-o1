@@ -165,8 +165,9 @@ button {
 
 }
 
-.socials-item-icon {
-    
+.icon-header-link {
+    fill: #1b414b;
+    stroke: #fbfbfb;
 }
 
 /* #endregion header */
@@ -176,16 +177,21 @@ button {
 .section {}
 
 .hero {
-    padding: 0;
+    padding-top: 155px;
+    padding-bottom: 0;
 }
 
 .hero-img {
-    max-width: 100%;
-    height: 800px;
     background-image: url(../images/hero/hero.jpg);
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 800px;
+    z-index: -1;
     margin: 0 auto;
 }
 
@@ -521,7 +527,67 @@ button {
 /* #endregion block3 sings */
 
 /* #region block4 input */
+.section {}
 
+.section-input {}
+
+.container {}
+
+.container-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-box {
+    width: 768px;
+    height: 534px;
+    border-radius:24px;;
+}
+
+.input-img {
+    border-radius:24px;;
+}
+
+.input-all-box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-form-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+
+.input-form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.input-list {}
+
+.input-list-item {}
+
+.input-intext {
+ padding: 18px;
+}
+
+
+.input-send {}
 
 /* #endregion block4 input */
 
