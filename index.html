@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+<div class="hero-img"> </div>
     <!-- #region header-->
     <header class="header-page">
         <div class="container header_container">
@@ -60,9 +61,12 @@
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="Site Instagram">
-                                    <img class="social-item-icon"
+                                    <!-- <img class="social-item-icon"
                                         src="./images/Menu/instagram.png"
-                                        alt="Icon Instagram">
+                                        alt="Icon Instagram"> -->
+                                    <svg class="icon-header-link" width="" height="">
+                                      <use href="/images/icon/symbol-defs.svg#icon-instagram"></use>
+                                    </svg>
                             </a>
                         </li>
                         <li class="socials-list-item">
@@ -92,12 +96,12 @@
         </div>
         </header>
     <!-- #endregion header-->
+ 
 
     <main>
     <!-- #region Hero-->    <!--section>h1+p+button-->
-    <div class="hero-img"> </div>
-    <section class="section hero">
-       
+    <section class="section hero">    
+ 
             <div class="container hero-container">
                 <h1 class="hero-title">
                     Explore the High Seas with Our Luxury Yacht Rentals
@@ -107,7 +111,7 @@
                     unforgettable journey surrounded by breathtaking views and state-of-the-art amenities.
                 </p>
                 <button class="hero-btn" type="button">Yacht rental</button>
-           
+        
         </div>
     </section>
     
@@ -325,36 +329,42 @@
     <!--#region block4 input-->
      <section class="section section-input">
         
-        <div class="container container-inpu">
-            <img class="input-img"
-                src="./images/Block/img-block4.jpg"
-                alt="Photo blocl4"
-                width="768"
-                height="536"
-            >
-            <div class="input-form-box">
-                <h2 class="input-title">
+        <div class="container container-input">
+            <div class="input-box">
+                <img class="input-img"
+                    src="./images/Block/img-block4.jpg"
+                    alt="Photo blocl4"
+                    width="768"
+                    height="536"
+                >
+            </div>
+            <div class="input-all-box">
+                <p class="input-title">
                      Rent a yacht now
-                </h2>
-                <form class="input-form">
-                    <ul class="input-list">
-                        <li class="input-list-item">
-                            <input class="input-intext" type="text" placeholder="Full name">
-                        </li>
-                        <li class="input-list-item">
-                            <input class="input-intext" type="text" placeholder="Email">
-                        </li>
-                        <li class="input-list-item">
-                            <input class="input-intext" type="text" placeholder="Phone number">
-                        </li>
-                        <li class="input-list-item">
-                            <input class="input-intext" type="text" placeholder="Comment">
-                        </li>
-                    </ul>
-                    <button class="input-send" type="button">
-                        Send
-                    </button>
-                </form>
+                </p>
+                <div class="input-form-box">
+                
+                    <form class="input-form">
+                        <ul class="input-list">
+                            <li class="input-list-item">
+                                <label class="label_input-item" for="username" ></label>
+                                <input class="input-intext" id="u" type="text" placeholder="Full name">
+                            </li>
+                            <li class="input-list-item">
+                                <input class="input-intext" type="email" name="email" placeholder="Email">
+                            </li>
+                            <li class="input-list-item">
+                                <input class="input-intext" type="text" placeholder="Phone number">
+                            </li>
+                            <li class="input-list-item">
+                                <input class="input-intext" type="text" placeholder="Comment">
+                            </li>
+                        </ul>
+                        <button class="input-send" type="button">
+                            Send
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
      </section>
