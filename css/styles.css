@@ -321,6 +321,7 @@ button {
     padding: 0 15px;
     align-items: center;
     text-align: center;
+    width: 1240px;
 }
 
 .title-choose-cards {
@@ -337,6 +338,7 @@ button {
 
 .cards-box {
     padding-bottom: 29px;
+    align-items: center;
 }
 
 .cards-list {
