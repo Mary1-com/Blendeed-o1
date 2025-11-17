@@ -342,78 +342,103 @@
                 <p class="input-title">
                      Rent a yacht now
                 </p>
-                <div class="input-form-box">
                 
-                    <form class="input-form">
-                        <ul class="input-list">
-                            <li class="input-list-item">
-                                <label class="label_input-item" for="username" ></label>
-                                <input class="input-intext" id="u" type="text" placeholder="Full name">
-                            </li>
-                            <li class="input-list-item">
-                                <input class="input-intext" type="email" name="email" placeholder="Email">
-                            </li>
-                            <li class="input-list-item">
-                                <input class="input-intext" type="text" placeholder="Phone number">
-                            </li>
-                            <li class="input-list-item">
-                                <input class="input-intext" type="text" placeholder="Comment">
-                            </li>
-                        </ul>
-                        <button class="input-send" type="button">
-                            Send
-                        </button>
-                    </form>
-                </div>
+                <form class="input-form-box">
+                    <label class="label-form">
+                        <input class="input-form" type="text" name="username" placeholder="Full name">
+                    </label>
+                    <label class="label-form">
+                        <input class="input-form" type="email" name="useremail" placeholder="Email">
+                    </label>
+                    <label class="label-form">
+                        <input class="input-form" type="tel" name="usertel" placeholder="Phone number">
+                    </label>
+                    <label class="textarea-label">
+                        <textarea class="textarea-form" name="comment" placeholder="Comment"></textarea>
+                    </label>
+                    <button class="input-send-btn" type="submit">
+                        Send
+                    </button>
+                </form>
+                
             </div>
         </div>
      </section>
     <!-- #endregion block4 input-->
 
     <!--#region block5 customers-->
-    <section>
-        <h1>YachtJet take pride in providing the best possible service and experience to our customers</h1>
-        <p>Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out
-        what they have to say about their journey with us.</p>
-        <ul>
-            <li>
-                <img src="./images/Customers/image-1.jpg" 
-                    alt="John Wax"
-                    width="56"
-                    height="56">
-                <h3>John Wax</h3>
-                <p>
-                    I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything. 
+    <section class="section section-customers">
+        <div class="container container-customers">
+            <div class="container customers-title-box">
+                <h1 class="title customers-title">
+                    YachtJet take pride in providing the best possible service and experience to our customers
+                </h1>
+                <p class="customers-text-title">
+                    Our customers have enjoyed unforgettable moments on our yachts. Don't just take our word for it - read on to find out
+                    what they have to say about their journey with us.
                 </p>
-            </li>
-            <li>
-                <img src="./images/Customers/image-2.jpg" 
-                    alt="Victoria Romashenko"
-                    width="56"
-                    height="56">
-                <h3>Victoria Romashenko</h3>
-                <p>
-                    The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly. 
-                </p>
-            </li>
-            <li>
-                <img src="./images/Customers/image-3.jpg" 
-                alt="Ihor Trachuk"
-                width="56"
-                height="56">
-                <h3>Ihor Trachuk</h3>
-                <p>
-                    The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!
-                </p>
-            </li>
-        </ul>
+            </div>
+            <ul class="cusomers-cards-box">
+                <li class="customers-cards">
+                    <div class="customers-info">
+                        <img class="customers-img"
+                            src="./images/Customers/image-1.jpg"
+                            alt="John Wax"
+                            width="56"
+                            height="56">
+                        <div class="customers-tex-info">
+                            <h3 class="customers-cards-name">
+                                John Wax
+                            </h3>
+                            <p class="customers-cards-text">
+                                I rented the Lagoon 620 with my family for a week-long vacation and it was the best decision ever. The yacht was spacious, comfortable, and luxurious, and the crew took care of everything.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="customers-cards">
+                    <div class="customers-info">
+                        <img class="customers-img"
+                            src="./images/Customers/image-2.jpg"
+                            alt="Victoria Romashenko"
+                            width="56"
+                            height="56">
+                        <div class="customers-tex-info">
+                            <h3 class="customers-cards-name">
+                                Victoria Romashenko
+                            </h3>
+                            <p class="customers-cards-text">
+                                The Sunseeker Manhattan 66 was the perfect choice for our romantic getaway. The yacht was beautifully designed, with all the amenities we needed, and the crew was attentive and friendly.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="customers-cards">
+                    <div class="customers-info">
+                        <img class="customers-img"
+                            src="./images/Customers/image-3.jpg"
+                        alt="Ihor Trachuk"
+                        width="56"
+                        height="56">
+                        <div class="customers-tex-info">
+                            <h3 class="customers-cards-name">
+                                Ihor Trachuk
+                            </h3>
+                            <p class="customers-cards-text">
+                                The Azimut 80 was the most luxurious yacht I've ever been on. The cabins were spacious and elegant, and the outdoor areas were perfect for relaxing and entertaining. Worth every penny!
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </section>
     <!-- #endregion block5 customers-->
 
     </main>
 
     <!-- #region footer-->
-    <footer>
+    <footer class="section section-footer">
         <a href="./index.html" class="logo">
             <!--<img src="./images/Logo/yachtjet.png" alt="Logo" width="74" height="24">-->
             <p>yachtjet</p>
